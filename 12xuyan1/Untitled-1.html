@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+
+    var agou
+    agou=document.getElementById('amao')
+    console.log(agou)
+    agou.innerHTML='我被程序改变了'
+
+
+  var hero ={
+    name:'木兰',
+    level:1,
+    attack:240,
+    levelup:function(){
+      this.level++
+      this.attack=this.attack+50
+    }
+  }
+  document.write(hero.name)
+  hero.levelup()
+  document.write(hero.level)
+
+  <p id='amao'>1111</p>
+  console.log(agou)
+
+  
+  </script>
+</body>
+</html>
